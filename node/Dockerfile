@@ -4,9 +4,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm install express --save
-RUN npm install mysql --save
-RUN npm intsall gerador-nome --save
+RUN npm install --save
 
 EXPOSE 3000
 
