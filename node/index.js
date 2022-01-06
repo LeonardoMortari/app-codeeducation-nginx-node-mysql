@@ -13,6 +13,13 @@ const config = {
 const mysql = require('mysql')
 const connection = mysql.createConnection(config)
 
+const sqlTabela = `CREATE TABLE IF NOT EXISTS pessoas(
+  id INT PRIMARY KEY auto_increment,
+  nome VARCHAR(255)
+)`
+
+connection.query(sqlTabela)
+
 app.get('/', (req, res) => {
     const nomeAleatorio = gerador.geradorNome()
   
