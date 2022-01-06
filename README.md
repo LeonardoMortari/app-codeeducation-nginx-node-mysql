@@ -1,4 +1,3 @@
-# app-codeeducation-nginx-node-mysql  
 # Desafio Docker Nginx
 
 Passos para rodar a aplicação:
