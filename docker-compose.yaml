@@ -7,7 +7,7 @@ services:
       context: ./node
     container_name: node
     entrypoint: dockerize -wait tcp://mysql:3306 -timeout 20s docker-entrypoint.sh
-    #restart: always
+    restart: always
     networks:
       - mynet
     depends_on:
