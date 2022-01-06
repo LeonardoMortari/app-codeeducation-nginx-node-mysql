@@ -11,21 +11,21 @@ Cada vez que o navegador for reiniciado um novo nome aleatório será adicionado
 
 O resultado será algo parecido com isso:
 
-Full Cycle Rocks!
+Full Cycle Rocks! <br>
 
-Branca
-Rosendo
-Clementino
-Amanda
-Eloisa
-Adeci
-Tulane
-Walter
-Didier
-Kleber
-Caetana
-Tierry
-Michelle
-Edmir
-Henriqueta
-Tarik
+Branca <br>
+Rosendo <br>
+Clementino <br>
+Amanda <br>
+Eloisa <br>
+Adeci <br>
+Tulane <br>
+Walter <br>
+Didier <br>
+Kleber <br>
+Caetana <br>
+Tierry <br>
+Michelle <br>
+Edmir <br>
+Henriqueta <br>
+Tarik <br>
