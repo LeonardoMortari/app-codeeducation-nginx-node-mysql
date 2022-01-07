@@ -6,7 +6,8 @@ services:
     build:
       context: ./node
     container_name: node
-    restart: always
+    entrypoint: dockerize -wait tcp://mysql:3306 -timeout 20s docker-entrypoint.sh
+    command: node index.js
     networks:
       - mynet
     depends_on:
@@ -30,7 +31,6 @@ services:
     build:
       context: ./nginx
     container_name: nginx
-    restart: always
     ports:
       - "8080:80"
     networks:
